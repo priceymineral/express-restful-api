@@ -27,3 +27,14 @@ app.listen(port, () => {
 });
 
 // This code sets up a basic Express.js server that listens on port 3000 and responds with "Hello World!" when a GET request is made to the root endpoint. You can test this by running the node index.js command in your terminal and opening http://localhost:3000 in your browser.
+
+// const mongoose = require('mongoose');
+// mongoose.connect('mongodb://localhost/exprestfulapi');
+
+// const userSchema = new mongoose.Schema({
+//   name: String,
+//   email: String,
+//   password: String
+// });
+
+// const User = mongoose.model('User', userSchema);
