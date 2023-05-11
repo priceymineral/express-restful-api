@@ -26,7 +26,7 @@ $ npm install
 
 * Server runs at http://localhost:3000
 ```
-$ node index.js
+$ npm start
 ```
 
 ## Authored By
