@@ -15,14 +15,16 @@ RESTful API containing GET, POST, PUT, and DELETE routes to /api/users endpoint.
 
 ### Installing
 * Clone repository
-* Install dependencies
 ```
 $ git clone <REPOURL>
+```
+* Install dependencies
+```
 $ npm install
 ```
 ### Executing program
 
-* Server runs at http://localhost:3000:
+* Server runs at http://localhost:3000
 ```
 $ node index.js
 ```
