@@ -1,6 +1,6 @@
 # Simple RESTful API using NodeJS & ExpressJS
 
- Easily scalable and maintanable RESTful API using [NodeJS](https://nodejs.org/) and [ExpressJS](https://expressjs.com/)
+ Easily scalable and maintanable RESTful API using [NodeJS](https://nodejs.org/) and [ExpressJS](https://expressjs.com/).  Deployed using AWS EC2 ([tomatly.com](free.tomatly.com))
 
 ## Description
 
@@ -34,9 +34,10 @@ $ npm start
 * [Octavio Sifuentes](https://priceymineral.github.io/)
 
 ## Version History
-
-* 0.2 (Upcoming)
-    * Connect to MongoDB
+* 0.3 (Upcoming)
+    * CI/CD with CodePipeline
+* 0.2 
+    * Deploy to AWS EC2. Get SSL certificate.
 * 0.1
     * Initial Release
 
