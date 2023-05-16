@@ -1,4 +1,6 @@
 node_modules
 *.pem
 *.sh
-*.txt
+.env
+/dev_notes
+/dist
