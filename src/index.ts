@@ -12,6 +12,10 @@ class App {
     this.app.route('/').get((req: Request, res: Response) => {
       res.send('Hello Tamagi Pan! 💛');
     });
+
+    this.app.route('/hi').get((req: Request, res: Response) => {
+      res.send('Hiiiii! 💛');
+    });
   }
 }
 
