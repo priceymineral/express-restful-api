@@ -28,6 +28,10 @@ $ npm install
 ```
 $ npm start
 ```
+* Build and serve
+```
+$ npm run serve
+```
 
 ## Authored By
 
