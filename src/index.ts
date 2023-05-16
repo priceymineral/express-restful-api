@@ -8,21 +8,12 @@ app.get("/", (req: Request, res: Response) => {
 });
 
 app.get("/hi", (req: Request, res: Response) => {
-  res.send("Hiiiiiiiii");
+  res.send("Hi");
 });
 
 app.listen(port, () => {
   console.log(`✅ Server listening on port ${port}.`);
 });
-
-
-
-
-
-
-
-
-
 
 
 // const express = require('express');
