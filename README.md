@@ -23,14 +23,9 @@ $ git clone <REPOURL>
 $ npm install
 ```
 ### Executing program
-
-* Server runs at http://localhost:3000
-```
-$ npm start
-```
 * Build and serve
 ```
-$ npm run serve
+$ npm start
 ```
 
 ## Authored By
@@ -38,8 +33,10 @@ $ npm run serve
 * [Octavio Sifuentes](https://priceymineral.github.io/)
 
 ## Version History
-* 0.3 (Upcoming)
-    * CI/CD with CodePipeline
+* 0.4 (Upcoming)
+    * Integrate PostgreSQL
+* 0.3 
+    * Integrate TS
 * 0.2 
     * Deploy to AWS EC2. Get SSL certificate.
 * 0.1

@@ -1,19 +1,41 @@
-import express, { Express, Request, Response } from 'express';
-const port = 3000;
+import express, { Application, Express, Request, Response } from 'express';
 
-const app: Express = express();
+class App {
+  public app: Application;
 
-app.get("/", (req: Request, res: Response) => {
-  res.send("Hello Tamago! 💛");
-});
+  constructor() { 
+    this.app = express();
+    this.routes();
+  }
 
-app.get("/hi", (req: Request, res: Response) => {
-  res.send("Hi");
-});
+  protected routes(): void {
+    this.app.route('/').get((req: Request, res: Response) => {
+      res.send('Hello Tamagi Pan! 💛');
+    });
+  }
+}
+
+const port:number = 3000;
+const app = new App().app;
 
 app.listen(port, () => {
   console.log(`✅ Server listening on port ${port}.`);
 });
+
+
+// const app: Express = express();
+
+// app.get("/", (req: Request, res: Response) => {
+//   res.send("Hello Tamago! 💛");
+// });
+
+// app.get("/hi", (req: Request, res: Response) => {
+//   res.send("Hiiiiii");
+// });
+
+// app.listen(port, () => {
+//   console.log(`✅ Server listening on port ${port}.`);
+// });
 
 
 // const express = require('express');
