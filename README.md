@@ -1,6 +1,6 @@
 # Simple RESTful API using NodeJS & ExpressJS
 
- Easily scalable and maintanable RESTful API using [NodeJS](https://nodejs.org/) and [ExpressJS](https://expressjs.com/).  Deployed using AWS EC2 ([tomatly.com](free.tomatly.com))
+ Easily scalable and maintanable RESTful API using [NodeJS](https://nodejs.org/) and [ExpressJS](https://expressjs.com/), [PostgreSQL](https://www.postgresql.org/).  Deployed using AWS EC2 ([tomatly.com](free.tomatly.com))
 
 ## Description
 
@@ -12,6 +12,7 @@ RESTful API containing GET, POST, PUT, and DELETE routes to /api/users endpoint.
 
 * NodeJS - https://nodejs.org/
 * ExpressJS - https://expressjs.com/
+* Sequelize - https://sequelize.org/
 
 ### Installing
 * Clone repository
