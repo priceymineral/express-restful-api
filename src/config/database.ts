@@ -9,6 +9,10 @@ const AppDataSource = new DataSource({
     username: process.env.POSTGRES_USER,
     password: process.env.POSTGRES_PASSWORD,
     database: process.env.POSTGRES_DB,
+    entities: [
+        __dirname + "/../entities/*.ts"
+    ],
+    synchronize: true,
 })
 
 export default AppDataSource;
